@@ -275,6 +275,12 @@ margin-bottom: 10px;}
 
 .main-title ul li {width:100%;}
 
+@media (min-width: 320px) {
+  .site-name h1 {
+    font-size: 30px;
+  }
+}
+
 
 
 
