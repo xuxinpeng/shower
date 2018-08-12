@@ -110,7 +110,8 @@ a{transition:all 1s; }
 .more-btn .btn:hover{background: #373435; color: #ebebeb; }
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 
-.content-wrap{overflow: hidden; padding: 60px 0;}
+
+.content-wrap{overflow: hidden; padding:35px 0;}
 
 
 /* ==========================================================================
