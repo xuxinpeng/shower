@@ -4,7 +4,7 @@
 
 	<!-- Appenders -->
 	<appender name="FILE" class="org.apache.log4j.RollingFileAppender">
-		<param name="file" value="logs/app.log" />
+		<param name="file" value="/data/program/logs/app.log" />
 		<param name="append" value="true" />
 		<param name="maxFileSize" value="100MB" />
 		<param name="maxBackupIndex" value="10" />
