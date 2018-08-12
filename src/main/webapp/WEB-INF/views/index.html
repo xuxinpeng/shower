@@ -36,13 +36,13 @@
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav ">
-							<li><a href="#">首页</a></li>
-							<li class="dropdown "><a href="#"
+							<li><a href="index">首页</a></li>
+							<li class="dropdown"><a href="#"
 								class="dropdown-toggle active" data-toggle="dropdown">关于我们 <b
 									class="caret"></b>
 							</a>
 								<ul class="dropdown-menu">
-									<li><a href="#">我们的故事</a></li>
+									<li id="story"><a href="#" onclick="menuClick('about/story')">我们的故事</a></li>
 									<li><a href="#">我们的优势</a></li>
 									<li><a href="#">我们的形象</a></li>
 									<li><a href="#">我们的愿景</a></li>
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div id="content"></div>
 
 	</div>
@@ -89,7 +89,10 @@
 	<script>
 		$(function() {
 			$("#content").load("main");
-		})
+		});
+		var menuClick = function(menuUrl) {
+			$("#content").load(menuUrl);
+		};
 	</script>
 </body>
 </html>
