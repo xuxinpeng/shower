@@ -13,10 +13,20 @@
 <!-- CSS stylesheet end-->
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="application/x-javascript">	
+<script type="application/x-javascript">
+	
+	
+	
+	
+		
 	 addEventListener("load", function() { 
 		 setTimeout(hideURLbar, 0); }, false); 
 	 function hideURLbar(){ window.scrollTo(0,1); } 
+
+
+
+
+
 </script>
 <!-- Google fonts ends -->
 <script src="js/jquery.min.js"></script>
@@ -32,6 +42,12 @@
 			}
 		});
 	});
+	$(function() {
+		$("#main").load("main");
+	});
+	var menuClick = function(menuUrl) {
+		$("#main").load(menuUrl);
+	};
 </script>
 </head>
 <body>
@@ -44,130 +60,19 @@
 				<a class="toggleMenu" href="#"><img src="images/nav_icon.png"
 					alt="" /> </a>
 				<ul class="nav" id="nav">
-					<li class="current"><a href="#home" class="scroll">首页</a></li>
-					<li><a href="about.html" class="scroll">关于我们</a></li>
-					<li><a href="portfolio.html" class="scroll">关于痣</a></li>
-					<li><a href="services.html" class="scroll">客户案例</a></li>
-					<li><a href="services.html" class="scroll">常见问题</a></li>
-					<li><a href="contact.html" class="scroll">联系我们</a></li>
+					<li class="current"><a href="index" class="scroll">首页</a></li>
+					<li><a href="#" class="scroll" onclick="menuClick('us')">关于我们</a></li>
+					<li><a href="#" class="scroll" onclick="menuClick('product')">关于痣</a></li>
+					<li><a href="#" class="scroll" onclick="menuClick('customer')">客户案例</a></li>
+					<li><a href="#" class="scroll" onclick="menuClick('problem')">常见问题</a></li>
+					<li><a href="#" class="scroll" onclick="menuClick('contact')">联系我们</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<!-- Header ends here -->
 	<!-- Banner starts here -->
-	<div class="banner">
-		<div class="container">
-			<div class="slider-background">
-				<section class="slider">
-					<div class="flexslider">
-						<ul class="slides">
-							<li><img src="images/banner.jpg" alt="" /></li>
-							<li><img src="images/banner1.jpg" alt="" /></li>
-							<li><img src="images/banner2.jpg" alt="" /></li>
-						</ul>
-					</div>
-				</section>
-				<div class="banner-below-content">
-					<h2>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华氏古方痣缘宫迄今已有三个多世纪,创始人华富好先生结合现代科技，
-						以安全高效为宗旨,真正做到了祛痣不留疤，达到现代传统祛痣方法所不能及的效果，
-						华氏祛痣产品2008年通过国家卫生部批准，被誉为华夏祛痣尖端品牌.</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Contents start here -->
-	<div class="content">
-		<div class="container">
-			<div class="content-row-class2">
-				<h3>我们的优势</h3>
-				<p>
-					国内最大痣服务与痣文化研究机构，纯植物配方，可洗脸洗澡，恢复快,不留疤<br />
-				</p>
-			</div>
-			<div class="row content-row-class">
-				<div class="col-md-4 content-row-column">
-					<div class="content-row-column-in">
-						<a href="#" class="hed"><h3>
-								首屈一指的<br />品牌
-							</h3></a>
-						<p>国内最大取痣服务与痣文化研究机构,华夏祛痣尖端品牌,祛痣产品获国家卫生部批准</p>
-						<a href="#">More</a>
-					</div>
-				</div>
-				<div class="col-md-4 content-row-column">
-					<div class="content-row-column-in">
-						<a href="#" class="hed"><h3>
-								安全高效的<br />产品
-							</h3></a>
-						<p>传承华氏古术，纯植物配方，融合现代科技，祛痣不留疤，7-21天去除</p>
-						<a href="#">More</a>
-					</div>
-				</div>
-				<div class="col-md-4 content-row-column">
-					<div class="content-row-column-in">
-						<a href="#" class="hed"><h3>
-								专业细致的<br />服务
-							</h3></a>
-						<p>专业的技术，规范的服务流程，我们深信顾客的满意才是我们的最大追求.</p>
-						<a href="#">More</a>
-					</div>
-				</div>
-			</div>
-			<div class="content-row-class2">
-				<h3>客户案例</h3>
-				<p>&nbsp;</p>
-			</div>
-			<div class="row content-row-class3">
-				<div class="featured-block">
-					<div class="col-md-4 content-row-colum">
-						<div class="grow">
-							<img src="images/customer1.jpg" />
-						</div>
-					</div>
-				</div>
-				<div class="featured-block">
-					<div class="col-md-4 content-row-colum">
-						<div class="grow">
-							<img src="images/customer2.jpg" />
-						</div>
-					</div>
-				</div>
-				<div class="featured-block">
-					<div class="col-md-4 content-row-colum">
-						<div class="grow">
-							<img src="images/customer3.jpg" />
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="ruler">
-				<div class="more-btn lines1">
-					<a href="#" class="btn">MORE INFO</a>
-				</div>
-			</div>
-			<div class="content-wrap centering">
-				<div class="main-title">
-					<ul class="effect-8">
-						<li>
-							<h1>联系我们</h1>
-							<h4>
-								联系电话:18603867626(华忠兰老师)<br> &nbsp;<br> 地址:
-								河南省郑州市二七区大学路政通路陈砦花卉市场南门往东10米痣缘宫<br>
-							</h4>
-						</li>
-					</ul>
-				</div>
-				<div class="tags">
-					<h5 class="spacing-bt">微信二维码</h5>
-					<div class="webchat">
-						<img src="images/webchat.jpg" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div id="main"></div>
 	<div class="footer">
 		<div class="container">
 			<div class="row footer-row">
@@ -177,6 +82,5 @@
 		</div>
 	</div>
 	<!-- Footer ends here-->
-
 </body>
 </html>
