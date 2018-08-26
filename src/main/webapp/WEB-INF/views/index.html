@@ -1,98 +1,263 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>郑州痣缘宫华忠兰店</title>
-
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/custom-styles.css" rel="stylesheet">
-<link href="css/image-effects.css" rel="stylesheet">
-<link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" href="css/font-awesome-ie7.css">
-
-<script src="js/html5shiv.js"></script>
-<script src="js/respond.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-
+<title>Home</title>
+<!-- Bootstrap link -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"
+	media="all" />
+<!-- Bootstrap link  end-->
+<!-- CSS stylesheet -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css"
+	media="all" />
+<!-- CSS stylesheet end-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript">
+	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
+</script>
+<!-- Google fonts ends -->
+<script src="js/jquery.min.js"></script>
+<!-- FlexSlider -->
+<script defer src="js/jquery.flexslider.js"></script>
+<script src="js/modernizr.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			animation : "slide",
+			start : function(slider) {
+				$('body').removeClass('loading');
+			}
+		});
+	});
+</script>
 </head>
-
 <body>
-	<div class="container page-styling">
-		<div class="header-wrapper">
-			<div class="site-name">
-				<h1>痣缘宫华忠兰店</h1>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo3.png" /></a>
 			</div>
 			<div class="menu">
-				<div class="navbar">
-
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse"
-							data-target=".navbar-collapse">
-							<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-								class="icon-bar"></span>
-						</button>
-					</div>
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav ">
-							<li><a href="index">首页</a></li>
-							<li class="dropdown"><a href="#"
-								class="dropdown-toggle active" data-toggle="dropdown">关于我们 <b
-									class="caret"></b>
-							</a>
-								<ul class="dropdown-menu">
-									<li id="story"><a href="#" onclick="menuClick('about/story')">我们的故事</a></li>
-									<li><a href="#">我们的优势</a></li>
-									<li><a href="#">我们的形象</a></li>
-									<li><a href="#">我们的愿景</a></li>
-								</ul></li>
-							<li class="dropdown "><a href="#"
-								class="dropdown-toggle active" data-toggle="dropdown">关于痣 <b
-									class="caret"></b>
-							</a>
-								<ul class="dropdown-menu">
-									<li><a href="#">痣的由来</a></li>
-									<li><a href="#">古人看痣</a></li>
-								</ul></li>
-							<li><a href="#"></a></li>
-							<li><a href="#">客户案例</a></li>
-							<li><a href="#">常见问题</a></li>
-							<li><a href="#">联系我们</a></li>
+				<a class="toggleMenu" href="#"><img src="images/nav_icon.png"
+					alt="" /> </a>
+				<ul class="nav" id="nav">
+					<li class="current"><a href="#home" class="scroll">首页</a></li>
+					<li><a href="about.html" class="scroll">关于我们</a></li>
+					<li><a href="portfolio.html" class="scroll">关于痣</a></li>
+					<li><a href="services.html" class="scroll">客户案例</a></li>
+					<li><a href="services.html" class="scroll">常见问题</a></li>
+					<li><a href="contact.html" class="scroll">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Header ends here -->
+	<!-- Banner starts here -->
+	<div class="banner">
+		<div class="container">
+			<div class="slider-background">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li><img src="images/slide_img.jpg" alt="" /></li>
+							<li><img src="images/banner.jpg" alt="" /></li>
+							<li><img src="images/banner2.jpg" alt="" /></li>
+							<li><img src="images/banner3.jpg" alt="" /></li>
 						</ul>
 					</div>
+				</section>
+				<div class="banner-below-content">
+					<h2>
+						Sed ut perspiciatis unde <span>omnis iste natus error sit</span>
+						volup iont tat
+					</h2>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus
+						qui blanditiis praese</p>
+					<a href="#"><i>Natusin int</i></a>
+
 				</div>
 			</div>
 		</div>
-
-		<div id="content"></div>
-
 	</div>
+	<!-- Banner ends here -->
+	<div class="tlinks">
+		Collect from <a href="http://www.cssmoban.com/" title="网站模板">网站模板</a>
+	</div>
+	<!-- Contents start here -->
+	<div class="content">
+		<div class="container">
+			<div class="row content-row-class">
+				<div class="col-md-3 content-row-column">
+					<div class="content-row-column-in">
 
-	<!-- /container -->
+						<center>
+							<i class="icon1"> </i>
+						</center>
+						<a href="#" class="hed"><h3>Istenet</h3></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Praesent vestibulum scelerisque</p>
+						<a href="#">More</a>
+					</div>
+				</div>
+				<div class="col-md-3 content-row-column">
+					<div class="content-row-column-in">
+						<center>
+							<i class="icon2"> </i>
+						</center>
+						<a href="#" class="hed"><h3>Suspendi</h3></a>
+						<p>Aliquam sit amet nibh luctus neque adipiscing mattis vel id
+							nisi. Donec</p>
+						<a href="#">More</a>
+					</div>
+				</div>
+				<div class="col-md-3 content-row-column">
+					<div class="content-row-column-in">
+						<center>
+							<i class="icon3"> </i>
+						</center>
+						<a href="#" class="hed"><h3>luctusante</h3></a>
+						<p>Quam fringilla, non fringilla dui vestibulum. Phasellus
+							iaculis in turpis et accumsan</p>
+						<a href="#">More</a>
+					</div>
+				</div>
+				<div class="col-md-3 content-row-column">
+					<div class="content-row-column-in">
+						<center>
+							<i class="icon4"></i>
+						</center>
+						<a href="#" class="hed"><h3>fringillala</h3></a>
+						<p>Duis ut facilisis nunc, congue luctus nibh. Curabitur
+							pharetra nisl id la amet lorem ipsum</p>
+						<a href="#">More</a>
+					</div>
+				</div>
+			</div>
+			<div class="content-row-class2">
+				<h3>Sed ut perspiciatis olup iont tat</h3>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus
+					qui blanditiis praese</p>
+			</div>
+			<div class="row content-row-class3">
+				<div class="col-md-6 content-class3-column">
+					<div class="row class3-row">
+						<div class="col-md-6 class3-row-column">
+							<img src="images/kat.jpg" />
+						</div>
+						<div class="col-md-6 class3-row-column">
+							<h3>Suspendi</h3>
+							<p>Aenean feugiat blandit velit, posuere condimentum felis
+								dapibus id.</p>
+							<p>Cum sociis natoque penatibus et magnis dis parturient
+								montes, nascetur ridiculus mus. Intaliquam mas.</p>
+							<a href="#">More Info</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 content-class3-column">
+					<div class="row class3-row">
+						<div class="col-md-6 class3-row-column">
+							<img src="images/ema.jpg" />
+						</div>
+						<div class="col-md-6 class3-row-column">
+							<h3>Vestibulam</h3>
+							<p>Aenean feugiat blandit velit, posuere condimentum felis
+								dapibus id.</p>
+							<p>Cum sociis natoque penatibus et magnis dis parturient
+								montes, nascetur ridiculus mus. Intaliquam mas.</p>
+							<a href="#">More Info</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="testimonals">
+				<h3>testimonials of our clients</h3>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus
+					qui blanditiis praese</p>
+			</div>
+			<div class="row testimonals-row">
+				<div class="col-md-4 testimonals-row-column">
+					<div class="testimonals-details">
+						<p class="test"></p>
 
-	<div class="container">
-		<div class="copy-rights">
-			版权所有©痣缘宫华忠兰店<br> 地址:河南省郑州市二七区大学路政通路陈砦花卉市场南门往东10米痣缘宫
+						<p>"Aenean feugiat blandit velit, posuere icondimentum felis
+							dapibus id. Cum sociis natoque penatibus etion tint coloreo"</p>
+					</div>
+					<p>
+						<span><a href="#">- John Doe</a></span> / Company Name
+					</p>
+				</div>
+				<div class="col-md-4 testimonals-row-column">
+					<div class="testimonals-details">
+						<p class="test"></p>
+						<p>"Praesent ullamcorper nulla ultrices nibh rutrum, sed
+							dapibus augue ornare esque convallis massa in elit cursus"</p>
+					</div>
+					<p>
+						<span><a href="#">- Amanda Doe</a></span> / Company Name
+					</p>
+				</div>
+				<div class="col-md-4 testimonals-row-column">
+					<div class="testimonals-details">
+						<p class="test"></p>
+						<p>"Duis ligula purus, molestie nec iaculis et, cursus vel
+							risus. Sed est magna, ultricies sit amet elit et, ullamcorper
+							susc"</p>
+					</div>
+					<p>
+						<span><a href="#">- Peter Doe</a> </span> / Company Name
+					</p>
+				</div>
+			</div>
+
 		</div>
 	</div>
+	<!-- Contents ends here -->
+	<!-- Footer starts here-->
+	<div class="footer">
+		<div class="container">
+			<div class="row footer-row">
+				<div class="col-md-3 footer-row-left">
+					<div class="social-media">
+						<a href="#"><i class="fa1"> </i></a> <a href="#"><i
+							class="fa2"> </i></a> <a href="#"><i class="fa3"> </i></a> <a
+							href="#"><i class="fa4"> </i></a> <a href="#"><i class="fa5">
+						</i></a>
+					</div>
+				</div>
+				<div class="col-md-3 footer-row-left">
+					<div class="email-info">
+						<input type="text" size="25px" value="info@companyname.com"
+							onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'info@companyname.com';}"
+							style="margin-left: 10px">
+					</div>
+				</div>
+				<div class="col-md-6 footer-row-left">
+					<div class="footer-menu">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="services.html">Features</a></li>
+							<li><a href="contact.html">Contact</a></li>
 
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery-1.9.1.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/imagesloaded.js"></script>
-	<script src="js/classie.js"></script>
-	<script src="js/AnimOnScroll.js"></script>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<p class="footer-row-para">
+				Copyright &copy; 2014.Company name All rights reserved.More
+				Templates <a href="http://www.cssmoban.com/" target="_blank"
+					title="模板之家">模板之家</a> - Collect from <a
+					href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+			</p>
+		</div>
+	</div>
+	<!-- Footer ends here-->
 
-	<script>
-		$(function() {
-			$("#content").load("main");
-		});
-		var menuClick = function(menuUrl) {
-			$("#content").load(menuUrl);
-		};
-	</script>
 </body>
 </html>
