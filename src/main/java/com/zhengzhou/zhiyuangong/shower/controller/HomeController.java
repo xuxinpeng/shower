@@ -11,9 +11,14 @@ public class HomeController {
 		return "index";
 	}
 
-	@RequestMapping("main")
-	public String main() {
-		return "main";
+	@RequestMapping("footer")
+	public String footer() {
+		return "footer";
+	}
+
+	@RequestMapping("header")
+	public String header() {
+		return "header";
 	}
 
 	@RequestMapping("us")
@@ -26,6 +31,11 @@ public class HomeController {
 		return "product";
 	}
 
+	@RequestMapping("customer")
+	public String customer() {
+		return "customer";
+	}
+
 	@RequestMapping("problem")
 	public String problem() {
 		return "problem";
@@ -34,5 +44,10 @@ public class HomeController {
 	@RequestMapping("contact")
 	public String contact() {
 		return "contact";
+	}
+
+	@RequestMapping("tel")
+	public String tel() {
+		return "tel";
 	}
 }
